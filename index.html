@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dmitry L</title>
+
+	
+	<script src="./lib/gsap.min.js" defer></script>
+	<script src="./lib/ScrollTrigger.min.js" defer></script>
+	<script src="./lib/ScrollSmoother.min.js" defer></script>
+	<script src="./lib/ScrollToPlugin.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/TextPlugin.min.js" defer></script>
+	
+
+	<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+	<link rel="stylesheet" href="style/main.css">
+	<script src="./js/app.js" defer></script>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+			<header class="header" id="header">
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item" id="home">home</li>
+						<li class="header__item">about me</li>
+						<li class="header__item">works</li>
+						<li class="header__item">skills</li>
+						<li class="header__item">contacts</li>
+					</ul>
+				</nav>
+				<nav class="header__nav-mobile">
+					<div class="hamburger-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					  </div>
+				</nav>
+				<nav class="header__nav-mobile-menu">
+					<ul class="header__list">
+						<li class="header__item-mob" id="home">home</li>
+						<li class="header__item-mob">about me</li>
+						<li class="header__item-mob">works</li>
+						<li class="header__item-mob">skills</li>
+						<li class="header__item-mob">contacts</li>
+					</ul>
+				</nav>
+				<div class="header__hero">
+					<div class="header__p">Hi, my name`s</div>
+					<div class="header__title">Dmitry Lychagin</div>
+					<div class="header__slash"><img src="./img/symbols/Line 1.svg" alt="slash" srcset=""></div>
+					<div class="header__sub-title"></div>
+				</div>
+			</header>
+		
+			<div class="waves loyout-wave"></div>
+		
+			<section class="about" id="about">
+				<div class="about__profile">
+					<div class="about__photo-set">
+						<div class="about__line"><div class="line"></div></div>
+						<div class="about__photo"></div>
+						<div class="about__line"><div class="line"></div></div>
+					</div>
+						<h2 class="about__title">About myself</h2>
+						<p class="about__text">Dedicated and results-driven Front-End Developer with 1 year of experience in creating visually stunning and highly interactive user interfaces. Proficient in translating design concepts into responsive and efficient code, I am committed to delivering seamless and engaging user experiences. Adept at leveraging a comprehensive skill set in HTML, CSS, and JavaScript, coupled with a keen eye for design and a passion for staying abreast of emerging web technologies.</p>
+				</div>
+			</section>
+		
+			<div class="waves loyout-wave-2"></div>
+			<section class="works" id="works">
+				<div class="works__area">
+					<div class="title">My Works</div>
+					<div class="swiper">
+						<div class="swiper-wrapper">
+						    <div class="swiper-slide">
+								<a href="http://" target="_blank" rel="noopener noreferrer"><img src="./img/work1.png" alt="work1" srcset=""></a>
+								<p>Lorem ipsum dolor sit amet consectetur. Nam mi gravida sed tempus tempor quam sollicitudin viverra massa. Eget ornare etiam egestas vel. Ullamcorper eu integer dictum nisl mauris ut morbi nisi vel. In sollicitudin auctor id eu habitant consequat. Et quam mauris suspendisse rutrum viverra. Sem et nibh at phasellus vitae commodo. 
+								</p>
+						    </div>
+						    <div class="swiper-slide">
+								<a href="https://nexon5.github.io/anima2/" target="_blank"><img src="./img/work2.jpg" alt="work1" srcset=""></a>
+								<p>Lorem ipsum dolor sit amet consectetur. Nam mi gravida sed tempus tempor quam sollicitudin viverra massa. Eget ornare etiam egestas vel. Ullamcorper eu integer dictum nisl mauris ut morbi nisi vel. In sollicitudin auctor id eu habitant consequat. Et quam mauris suspendisse rutrum viverra. Sem et nibh at phasellus vitae commodo. 
+								</p>
+						    </div>
+						    <div class="swiper-slide">
+								<a href="https://nexon5.github.io/nature_3d/" target="_blank"><img src="./img/work3.jpg" alt="work1" srcset=""></a>
+								<p>Lorem ipsum dolor sit amet consectetur. Nam mi gravida sed tempus tempor quam sollicitudin viverra massa. Eget ornare etiam egestas vel. Ullamcorper eu integer dictum nisl mauris ut morbi nisi vel. In sollicitudin auctor id eu habitant consequat. Et quam mauris suspendisse rutrum viverra. Sem et nibh at phasellus vitae commodo. 
+								</p>
+						    </div>
+							<div class="swiper-slide">
+								<a href="https://nexon5.github.io/idex_calc/" target="_blank"><img src="./img/work4.jpg" alt="work1" srcset=""></a>
+								<p>Lorem ipsum dolor sit amet consectetur. Nam mi gravida sed tempus tempor quam sollicitudin viverra massa. Eget ornare etiam egestas vel. Ullamcorper eu integer dictum nisl mauris ut morbi nisi vel. In sollicitudin auctor id eu habitant consequat. Et quam mauris suspendisse rutrum viverra. Sem et nibh at phasellus vitae commodo. 
+								</p>
+					  		</div>
+						</div>
+					</div>
+					<div class="control-carusel">
+						<div class="swp-button-prev"></div>
+						<div class="swp-button-next"></div>
+					</div>
+					
+				</div>
+			</section>
+		
+			<div class="waves loyout-wave-3"></div>
+			<section class="skills" id="skills">
+				<div class="skills__area">
+					<div class="skills__title">Skills</div>
+					<div class="skills__warp">
+						<div class="skills__item" style="background-image: url(./img/symbols/git.png);">Git</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/html.png);">HTML</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/js.png);">JavaScript</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/css.png);">CSS</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/Angular.png);">Angular</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/sql.png);">SQL</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/Vector.png);">jQuery</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/Sass.png);">SASS</div>
+						<div class="skills__item" style="background-image: url(./img/symbols/json.png);">JSON</div>
+					</div>
+				</div>
+			</section>
+		
+			<div class="waves loyout-wave-4"></div>
+			<section class="contacts" id="contacts">
+				
+				<div class="contats__title">Contact me</div>
+				<form action="" class="contacts__form">
+					<input type="text" placeholder="Name" name="" id="" class="form__item name">
+					<input type="text" placeholder="Email"  name="" id="" class="form__item email">
+					<textarea value="" type="" placeholder="Message" name="" id="" class="form__item msg"></textarea>
+		
+					<button class="contacts__btn">Send</button>
+				</form>
+				<a href="https://www.linkedin.com/in/dmitry-lychahin-087b62219/" target="_blank">
+					<img src="./img/symbols/linkedin.png" class="contacts__links" alt="" srcset="">
+				</a>
+				
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>
